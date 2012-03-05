@@ -17,7 +17,7 @@ RESTRICT="mirror strip test"
 src_unpack() {
    unpack ${A}
    mkdir etc etc/env.d
-   cp ${FILESDIR}/etc-env.d-02bcm2835-libs etc/env.d/
+   cp ${FILESDIR}/etc-env.d-02bcm2835-libs etc/env.d/02bcm2835-libs
 } 
 
 src_install() {
